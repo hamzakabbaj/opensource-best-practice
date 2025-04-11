@@ -61,3 +61,77 @@ my-awesome-project/
 ├── CHANGELOG.md            # Version history
 └── package.json / pyproject.toml / etc.  # Project config/manifest (depends on stack)
 ```
+
+🏷️ Naming Conventions
+• repo name: use kebab-case or snake_case, avoid spaces/caps
+✅ Examples:
+• my-awesome-project
+• json-schema-validator
+• cli-tool-starter
+• branches:
+• main (or dev as default working branch)
+• feature branches: feature/add-auth, fix/typo-in-readme, docs/setup-guide
+• issues/PRs:
+Use prefixes in titles for clarity:
+• [DOCS], [BUG], [FEATURE], [TASK], [REFACTOR]
+
+✅ Step 2: Add Essential Files
+
+These are the backbone of any open source repo — they explain what the project is, how to use it, how to contribute, and what the rules are.
+
+⸻
+
+📄 Essential Files to Add
+
+Here’s what we’ll create, one by one:
+
+File
+Purpose
+README.md
+Project overview, setup, usage, etc.
+LICENSE
+Legal open source license
+.gitignore
+Tells Git what to ignore
+CONTRIBUTING.md
+Guide for contributors (we already made one âœ…)
+CODE_OF_CONDUCT.md
+Defines behavior expectations
+CHANGELOG.md
+Track changes across versions
+
+📝 1. Create README.md
+
+Here’s a simple starting point:
+
+````md
+# 🧰 My Awesome Project
+
+A short description of what this project does and who it's for.
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-user/my-awesome-project.git
+cd my-awesome-project
+npm install
+npm start
+```
+````
+
+🛠 Features
+• Feature 1
+• Feature 2
+• Feature 3
+
+📦 Built With
+• Tool 1
+• Framework X
+
+🤝 Contributing
+
+See CONTRIBUTING.md for guidelines.
+
+📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

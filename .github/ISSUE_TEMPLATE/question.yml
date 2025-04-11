@@ -1,0 +1,33 @@
+name: ❓ Question
+description: Ask a question or request guidance
+title: "[QUESTION]: "
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to ask a question, request help, or clarify something about the project.
+
+  - type: input
+    id: summary
+    attributes:
+      label: What’s your question?
+      placeholder: "e.g., How do I configure XYZ in production?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context or details
+      description: Provide more background so we can better assist you.
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency Level
+      options:
+        - Just curious / not urgent
+        - Would like an answer soon
+        - Blocked by this
+      default: 0

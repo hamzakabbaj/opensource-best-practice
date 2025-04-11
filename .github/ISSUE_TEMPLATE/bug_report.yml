@@ -1,0 +1,54 @@
+name: 🐛 Bug Report
+description: File a bug report
+title: "[BUG]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Brief description of the bug
+      placeholder: e.g., "App crashes on login"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the bug?
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      placeholder: What did you expect to happen?
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      placeholder: What actually happened?
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: e.g., "macOS 13, Chrome 114, Node v18"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs/Screenshots
+      description: Paste any error logs or screenshots here
