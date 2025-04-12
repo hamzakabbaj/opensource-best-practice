@@ -1,6 +1,6 @@
 [project]
 name = "opensource-best-practice"
-version = "0.1.12"
+version = "0.2.0"
 description = ""
 authors = [
     {name = "Hamza Kabbaj",email = "hamza.kabbaj@live.fr"}

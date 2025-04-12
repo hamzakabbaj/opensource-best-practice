@@ -1,6 +1,18 @@
 # CHANGELOG
 
 
+## v0.2.0 (2025-04-12)
+
+### Features
+
+- Update dependencies and add Sphinx documentation setup
+  ([`5c74db5`](https://github.com/hamzakabbaj/opensource-best-practice/commit/5c74db5ac958bfa3165d904046cf7996732c0f18))
+
+- Added new dependencies for Sphinx and related extensions in `pyproject.toml`. - Introduced Sphinx
+  documentation configuration files including `Makefile`, `make.bat`, and `conf.py`. - Created
+  initial documentation structure with `index.rst` for the project.
+
+
 ## v0.1.12 (2025-04-12)
 
 ### Bug Fixes
