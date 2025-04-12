@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.11 (2025-04-12)
+
+### Bug Fixes
+
+- Add configuration for semantic release and versioning setup
+  ([`1356af4`](https://github.com/hamzakabbaj/opensource-best-practice/commit/1356af44b94b50fd8b68ce0866d310d70a32e3f8))
+
+
 ## v0.1.10 (2025-04-12)
 
 ### Bug Fixes
