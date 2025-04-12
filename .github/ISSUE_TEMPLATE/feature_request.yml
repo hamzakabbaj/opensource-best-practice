@@ -1,0 +1,48 @@
+name: 💡 Feature Request
+description: Suggest a new feature or improvement
+title: "[FEATURE]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an improvement!
+
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary
+      placeholder: "e.g., Add dark mode toggle"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case or problem this feature would address.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      placeholder: "e.g., Add a theme switcher in the navbar..."
+      description: If you have a solution or idea in mind, share it here.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Did you consider other ways to solve this?
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+      default: 1

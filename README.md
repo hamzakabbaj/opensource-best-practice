@@ -41,23 +41,23 @@ Here’s a step-by-step checklist of everything we’ll configure — in smart o
 • Use all-contributors or GitHub built-ins
 • Add badges and acknowledgments
 
-✅ Step 1: Repository Structure & Naming Conventions
+## Labels creation script
 
-📦 Recommended Repo Structure
+```bash
+gh label create "triage" --color cfd3d7 --description "Issue needs initial review"
+gh label create "bug" --color d73a4a --description "Something isn't working"
+gh label create "enhancement" --color a2eeef --description "New feature or improvement"
+gh label create "question" --color d876e3 --description "Needs more info or clarification"
+gh label create "documentation" --color 0075ca --description "Docs need updates or clarification"
+gh label create "help wanted" --color 008672 --description "Open to external help"
+gh label create "good first issue" --color 7057ff --description "Good entry-level contribution"
+gh label create "priority: high" --color b60205 --description "Critical issue, fix ASAP"
+gh label create "priority: low" --color ededed --description "Nice to fix eventually"
+gh label create "needs info" --color fbca04 --description "More information is required to proceed"
+gh label create "accepted" --color 0e8a16 --description "Issue has been accepted for implementation"
+gh label create "ready" --color 5319e7 --description "Issue is ready for development"
+gh label create "confirmed" --color 1d76db --description "Issue has been confirmed and validated"
+gh label create "rejected" --color ff0000 --description "Issue has been rejected or won't be implemented"
+```
 
-```
-my-awesome-project/
-├── .github/                # GitHub-specific configs (workflows, templates)
-│   ├── ISSUE_TEMPLATE/
-│   └── workflows/
-├── src/                    # Your source code
-├── tests/                  # Unit/integration tests
-├── docs/                   # Project documentation
-├── .gitignore              # Files to ignore in Git
-├── README.md               # Project overview and usage
-├── LICENSE                 # Open source license
-├── CONTRIBUTING.md         # How to contribute
-├── CODE_OF_CONDUCT.md      # Contributor behavior expectations
-├── CHANGELOG.md            # Version history
-└── package.json / pyproject.toml / etc.  # Project config/manifest (depends on stack)
-```
+# Automatic Semantic versioning

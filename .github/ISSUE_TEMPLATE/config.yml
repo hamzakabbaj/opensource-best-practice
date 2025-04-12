@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a Question
+    url: https://github.com/hamzakabbaj/K2Labs/discussions
+    about: For general questions, use GitHub Discussions instead of opening an issue.
+
+  - name: 📖 Documentation
+    url: https://yourproject.com/docs
+    about: Read the official documentation for setup, usage, and troubleshooting.

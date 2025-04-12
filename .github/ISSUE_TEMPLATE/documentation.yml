@@ -1,0 +1,36 @@
+name: 📚 Documentation Update
+description: Suggest a fix or improvement to the documentation
+title: "[DOCS]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve the documentation! Use this form to suggest updates, corrections, or new content.
+
+  - type: input
+    id: location
+    attributes:
+      label: Page or Section
+      placeholder: "e.g., docs/setup.md, README line 12"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong or missing?
+      placeholder: "e.g., The setup instructions are outdated..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you like to see instead?
+      placeholder: "e.g., Add a section about using Docker with the new config"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Any extra notes or references?
