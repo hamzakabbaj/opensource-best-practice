@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v0.1.2 (2025-04-12)
+
+### Bug Fixes
+
+- Enhance versioning configuration in pyproject.toml for semantic release
+  ([`776d811`](https://github.com/hamzakabbaj/opensource-best-practice/commit/776d811e8104f351d4535e839399aeaf9104b7d3))
+
+### Chores
+
+- Update .gitignore and pyproject.toml for improved dependency management and versioning
+  ([`47b4b78`](https://github.com/hamzakabbaj/opensource-best-practice/commit/47b4b78d076cdaef557cdb1c76487eeb76555bdb))
+
+
 ## v0.1.1 (2025-04-12)
 
 ### Bug Fixes
