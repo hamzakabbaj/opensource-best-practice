@@ -1,6 +1,23 @@
 # CHANGELOG
 
 
+## v0.1.10 (2025-04-12)
+
+### Bug Fixes
+
+- Add configuration for semantic release and initial versioning
+  ([`5cad7c2`](https://github.com/hamzakabbaj/opensource-best-practice/commit/5cad7c231b7776eb3529320fbf590885b3bb1142))
+
+- Configure git user for semantic release in workflow
+  ([`2dce997`](https://github.com/hamzakabbaj/opensource-best-practice/commit/2dce99725cd4099b617db9897420d264ee333630))
+
+- Remove deprecated version_variable entry in pyproject.toml for semantic release
+  ([`44e19cf`](https://github.com/hamzakabbaj/opensource-best-practice/commit/44e19cf9a6e37e8d0ea5713672ab2294563ce14c))
+
+- Simplify semantic release workflow by removing unnecessary configurations
+  ([`da1416d`](https://github.com/hamzakabbaj/opensource-best-practice/commit/da1416d63748b6b359608c482930cddc070618b2))
+
+
 ## v0.1.9 (2025-04-12)
 
 ### Bug Fixes
