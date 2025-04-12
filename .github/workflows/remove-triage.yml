@@ -5,6 +5,10 @@ on:
     types:
       - labeled
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   remove-triage:
     runs-on: ubuntu-latest
