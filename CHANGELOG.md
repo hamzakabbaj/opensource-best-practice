@@ -1,36 +1,25 @@
-# 📦 Changelog
+# CHANGELOG
 
-All notable changes to this project will be documented in this file.
 
-This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)  
-and follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) guidelines.
+## v0.1.1 (2025-04-12)
 
----
+### Bug Fixes
 
-## [Unreleased]
+- Add __init__.py to initialize package structure
+  ([`b2857a1`](https://github.com/hamzakabbaj/opensource-best-practice/commit/b2857a1c5e9acacb2b16198abb977161cf47376e))
 
-### ✨ Added
+### Chores
 
-- Initial project setup and file structure
-- Issue templates for bug, feature, question, and docs
-- `CONTRIBUTING.md` with full contributor guide
-- GitHub Actions workflow for triage and label management
+- Add permissions to GitHub Actions workflows for enhanced functionality
+  ([`fe2f558`](https://github.com/hamzakabbaj/opensource-best-practice/commit/fe2f558d6f6cca110923968ec08d757a23b5c19d))
 
-### 🔧 Changed
+- Update GitHub Actions workflows for release and issue labeling
+  ([`fe8c374`](https://github.com/hamzakabbaj/opensource-best-practice/commit/fe8c3745d26d42482aa63a984eb2577e34e42a69))
 
-- N/A
 
-### 🐛 Fixed
+## v0.1.0 (2025-04-12)
 
-- N/A
+### Chores
 
----
-
-## [1.0.0] - 2025-04-11
-
-### ✨ Added
-
-- First public release
-- Issue triage and PR flow using GitHub Actions
-- Community standards: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`
-- Full open source scaffolding with changelog, license, and README
+- Add pull request template for better contribution guidelines
+  ([`728d1c1`](https://github.com/hamzakabbaj/opensource-best-practice/commit/728d1c1295614018820c9fa54d0d4106d1d6767d))
