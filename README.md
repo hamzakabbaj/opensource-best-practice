@@ -41,97 +41,23 @@ Here’s a step-by-step checklist of everything we’ll configure — in smart o
 • Use all-contributors or GitHub built-ins
 • Add badges and acknowledgments
 
-✅ Step 1: Repository Structure & Naming Conventions
-
-📦 Recommended Repo Structure
-
-```
-my-awesome-project/
-├── .github/                # GitHub-specific configs (workflows, templates)
-│   ├── ISSUE_TEMPLATE/
-│   └── workflows/
-├── src/                    # Your source code
-├── tests/                  # Unit/integration tests
-├── docs/                   # Project documentation
-├── .gitignore              # Files to ignore in Git
-├── README.md               # Project overview and usage
-├── LICENSE                 # Open source license
-├── CONTRIBUTING.md         # How to contribute
-├── CODE_OF_CONDUCT.md      # Contributor behavior expectations
-├── CHANGELOG.md            # Version history
-└── package.json / pyproject.toml / etc.  # Project config/manifest (depends on stack)
-```
-
-🏷️ Naming Conventions
-• repo name: use kebab-case or snake_case, avoid spaces/caps
-✅ Examples:
-• my-awesome-project
-• json-schema-validator
-• cli-tool-starter
-• branches:
-• main (or dev as default working branch)
-• feature branches: feature/add-auth, fix/typo-in-readme, docs/setup-guide
-• issues/PRs:
-Use prefixes in titles for clarity:
-• [DOCS], [BUG], [FEATURE], [TASK], [REFACTOR]
-
-✅ Step 2: Add Essential Files
-
-These are the backbone of any open source repo — they explain what the project is, how to use it, how to contribute, and what the rules are.
-
-⸻
-
-📄 Essential Files to Add
-
-Here’s what we’ll create, one by one:
-
-File
-Purpose
-README.md
-Project overview, setup, usage, etc.
-LICENSE
-Legal open source license
-.gitignore
-Tells Git what to ignore
-CONTRIBUTING.md
-Guide for contributors (we already made one âœ…)
-CODE_OF_CONDUCT.md
-Defines behavior expectations
-CHANGELOG.md
-Track changes across versions
-
-📝 1. Create README.md
-
-Here’s a simple starting point:
-
-````md
-# 🧰 My Awesome Project
-
-A short description of what this project does and who it's for.
-
-## 🚀 Getting Started
+## Labels creation script
 
 ```bash
-git clone https://github.com/your-user/my-awesome-project.git
-cd my-awesome-project
-npm install
-npm start
+gh label create "triage" --color cfd3d7 --description "Issue needs initial review"
+gh label create "bug" --color d73a4a --description "Something isn't working"
+gh label create "enhancement" --color a2eeef --description "New feature or improvement"
+gh label create "question" --color d876e3 --description "Needs more info or clarification"
+gh label create "documentation" --color 0075ca --description "Docs need updates or clarification"
+gh label create "help wanted" --color 008672 --description "Open to external help"
+gh label create "good first issue" --color 7057ff --description "Good entry-level contribution"
+gh label create "priority: high" --color b60205 --description "Critical issue, fix ASAP"
+gh label create "priority: low" --color ededed --description "Nice to fix eventually"
+gh label create "needs info" --color fbca04 --description "More information is required to proceed"
+gh label create "accepted" --color 0e8a16 --description "Issue has been accepted for implementation"
+gh label create "ready" --color 5319e7 --description "Issue is ready for development"
+gh label create "confirmed" --color 1d76db --description "Issue has been confirmed and validated"
+gh label create "rejected" --color ff0000 --description "Issue has been rejected or won't be implemented"
 ```
-````
 
-🛠 Features
-• Feature 1
-• Feature 2
-• Feature 3
-
-📦 Built With
-• Tool 1
-• Framework X
-
-🤝 Contributing
-
-See CONTRIBUTING.md for guidelines.
-
-📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+# Automatic Semantic versioning
