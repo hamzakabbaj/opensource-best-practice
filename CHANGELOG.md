@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v0.1.8 (2025-04-12)
+
+### Bug Fixes
+
+- Simplify version variable paths in pyproject.toml for semantic release
+  ([`0772b4c`](https://github.com/hamzakabbaj/opensource-best-practice/commit/0772b4ce141dcc1430ed970e1c68e394e5d56d2a))
+
+- Update version variable paths in pyproject.toml to use list format for semantic release
+  ([`92c5661`](https://github.com/hamzakabbaj/opensource-best-practice/commit/92c5661bed828ab58faae890e54e2abbeffb1a0f))
+
+
 ## v0.1.7 (2025-04-12)
 
 ### Bug Fixes
