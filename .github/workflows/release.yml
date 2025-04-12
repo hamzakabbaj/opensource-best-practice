@@ -26,13 +26,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install python-semantic-release==8.7.2
+          pip install python-semantic-release
 
       - name: Run semantic release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          semantic-release version
           semantic-release publish
