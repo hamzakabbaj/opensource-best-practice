@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.12 (2025-04-12)
+
+### Bug Fixes
+
+- Remove obsolete configuration files for semantic release
+  ([`beaa3b5`](https://github.com/hamzakabbaj/opensource-best-practice/commit/beaa3b5c9fd2c19b567c31575ed283c72f7a6819))
+
+
 ## v0.1.11 (2025-04-12)
 
 ### Bug Fixes
