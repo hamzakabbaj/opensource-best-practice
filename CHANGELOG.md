@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.6 (2025-04-12)
+
+### Bug Fixes
+
+- Remove release-drafter workflow and update version variable path in pyproject.toml
+  ([`4aa022c`](https://github.com/hamzakabbaj/opensource-best-practice/commit/4aa022c968ecb07ac28bed080d5810b56c95d099))
+
+
 ## v0.1.5 (2025-04-12)
 
 ### Bug Fixes
