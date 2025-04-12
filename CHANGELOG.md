@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.9 (2025-04-12)
+
+### Bug Fixes
+
+- Add installation instruction for python-semantic-control in README
+  ([`67805b6`](https://github.com/hamzakabbaj/opensource-best-practice/commit/67805b6f726c7f3945de5f25dcf3fc37ed27c282))
+
+
 ## v0.1.8 (2025-04-12)
 
 ### Bug Fixes
