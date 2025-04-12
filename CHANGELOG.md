@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.7 (2025-04-12)
+
+### Bug Fixes
+
+- Update version variable path in pyproject.toml to use relative path for semantic release
+  ([`0abed78`](https://github.com/hamzakabbaj/opensource-best-practice/commit/0abed78f763395d9879335abb2cf519d2b20cff1))
+
+
 ## v0.1.6 (2025-04-12)
 
 ### Bug Fixes
