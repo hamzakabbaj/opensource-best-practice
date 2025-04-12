@@ -61,3 +61,5 @@ gh label create "rejected" --color ff0000 --description "Issue has been rejected
 ```
 
 # Automatic Semantic versioning
+
+- install python-semantic-control
