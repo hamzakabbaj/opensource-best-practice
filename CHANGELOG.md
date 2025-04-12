@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.5 (2025-04-12)
+
+### Bug Fixes
+
+- Update version variable path in pyproject.toml for semantic release compatibility
+  ([`f4f121b`](https://github.com/hamzakabbaj/opensource-best-practice/commit/f4f121be7f4d61af116b9f1d0b8ad6c2af7204f6))
+
+
 ## v0.1.4 (2025-04-12)
 
 ### Bug Fixes
