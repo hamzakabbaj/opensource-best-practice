@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.3 (2025-04-12)
+
+### Bug Fixes
+
+- Update versioning configuration in pyproject.toml for semantic release compatibility
+  ([`9560cfe`](https://github.com/hamzakabbaj/opensource-best-practice/commit/9560cfe9c1baba7b5a985655d37cc37fceb861c3))
+
+
 ## v0.1.2 (2025-04-12)
 
 ### Bug Fixes
