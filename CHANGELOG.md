@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.4 (2025-04-12)
+
+### Bug Fixes
+
+- Correct path for version variable in pyproject.toml to ensure proper semantic release
+  functionality
+  ([`210d6e0`](https://github.com/hamzakabbaj/opensource-best-practice/commit/210d6e084928aaddb41e73a2c64e35d1b5b18811))
+
+
 ## v0.1.3 (2025-04-12)
 
 ### Bug Fixes
